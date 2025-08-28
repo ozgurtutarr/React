@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  flex-direction: row; /* Yatay hizalama */
+  justify-content: center; /* Ortaya hizalama */
+  align-items: center; /* Dikey hizalama */
+  gap: 20px; /* Kartlar arasında boşluk */
+  padding: 20px; /* İçerik etrafında boşluk */
+}
+
+.main div {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}

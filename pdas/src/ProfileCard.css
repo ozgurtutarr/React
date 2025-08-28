@@ -1,0 +1,28 @@
+.profile-card {
+  width: 200px; /* Kart genişliği */
+  border: 1px solid #ccc; /* Kart kenarlığı */
+  border-radius: 8px; /* Köşeleri yuvarlama */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+  padding: 16px; /* İçerik boşluğu */
+  text-align: center; /* Metinleri ortala */
+  background-color: #fff; /* Arka plan rengi */
+}
+
+.profile-image {
+  width: 100px; /* Görsel genişliği */
+  height: 100px; /* Görsel yüksekliği */
+  border-radius: 50%; /* Görselleri yuvarlak yap */
+  object-fit: cover; /* Görseli düzgün kes */
+  margin-bottom: 12px; /* Görsel alt boşluğu */
+}
+
+.profile-title {
+  font-size: 18px; /* Başlık boyutu */
+  font-weight: bold; /* Kalın yazı */
+  margin: 8px 0; /* Başlık üst ve alt boşluk */
+}
+
+.profile-handle {
+  font-size: 14px; /* Alt metin boyutu */
+  color: #555; /* Alt metin rengi */
+}
