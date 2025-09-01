@@ -62,7 +62,7 @@ function CounterPage({ initialCount }) {
   return (
     <Panel className="m-3">
       <h1 className="text-lg">Count is : {state.count} </h1>
-      <div className="flex flex-row">
+      <div className="flex flex-row ">
         <Button onClick={decrement} danger>
           Decrement
         </Button>
