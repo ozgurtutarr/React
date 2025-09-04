@@ -3,8 +3,8 @@ import { createSlice, nanoid } from '@reduxjs/toolkit';
 const carsSlice = createSlice({
   name: 'cars',
   initialState: {
-    data: [],
     searchTerm: '',
+    data: [],
   },
   reducers: {
     addCar(state, action) {
